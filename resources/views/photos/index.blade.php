@@ -3,7 +3,7 @@
 <img src="{{ $photo->url }}" width="200">
 <p>Etiquetas:
     @foreach($photo->tags as $tag)
-    <span>{{ $tag->name }}</span>
+        <span>{{ $tag->name }}</span>
     @endforeach </p>
 </div>
 @endforeach
